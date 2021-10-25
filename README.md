@@ -2,7 +2,7 @@
 
 You're about to build and install Nginx server with QUIC/HTTP3 support. I am assuming that you already know what it is and how it works. Also keep in mind that, this build is not suppose to run on a production server.
 
-### Either you build one or you can download which is already built and tested for you from the [release](https://github.com/fhdaax/scripts/releases/tag/nginx) of this repository, and follow only the setup guide down below.
+### Either you build one or you can download which is already built and tested for you from the [release](https://github.com/fhdaax/nginxQUIC/releases) of this repository, and follow only the setup guide down below.
 
 Follow up this step by step. Raise issue if you face any problem.
 
