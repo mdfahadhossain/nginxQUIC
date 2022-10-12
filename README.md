@@ -47,10 +47,10 @@ deb https://nginx.org/packages/mainline/ubuntu focal nginx
 deb-src https://nginx.org/packages/mainline/ubuntu focal nginx
 ```
 Update the version name according to your system version name. In our case, it's `focal`.
-- Ubuntu 20.10: `groovy`
-- Ubuntu 20.04.1 LTS: `focal`
-- Ubuntu 18.04.5 LTS: `bionic`
-- Ubuntu 16.04.7 LTS: `xenial`
+- Ubuntu 22.04 LTS: `jammy`
+- Ubuntu 20.04 LTS: `focal`
+- Ubuntu 18.04 LTS: `bionic`
+- Ubuntu 16.04 LTS: `xenial`
 
 Update your system once again.
 
