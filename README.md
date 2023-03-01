@@ -6,7 +6,7 @@ You're about to build and install Nginx server with QUIC/HTTP3 support. I am ass
 
 Follow up this step by step. Raise issue if you face any problem.
 
-### 4GB of RAM is recommanded
+#### Note: 4GB of RAM is recommanded for the build.
 
 ## Environment Setup
 
