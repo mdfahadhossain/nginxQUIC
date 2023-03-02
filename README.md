@@ -6,6 +6,8 @@ You're about to build and install Nginx server with QUIC/HTTP3 support. I am ass
 
 Follow up this step by step. Raise issue if you face any problem.
 
+#### Note: 4GB of RAM is recommanded for the build.
+
 ## Environment Setup
 
 First of all, login to your server and make sure that the system is up to date.
@@ -171,7 +173,7 @@ Follow these steps for the both lines that says `config.env.nginx` and `config.e
 Add the following after `–with-stream_ssl_preread_module`
 
 ```
---with-http_v3_module --with-http_quic_module --with-stream_quic_module
+--with-http_v3_module --with-stream_quic_module
 ```
 
 Then we need to add `-Wno-ignored-qualifiers` at the `CFLAGS=""` to disable compiler from throwing qualifiers error.
