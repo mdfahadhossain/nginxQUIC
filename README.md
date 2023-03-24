@@ -22,6 +22,8 @@ Get the necessary tools for the build.
 sudo apt install -y dpkg-dev uuid-dev mercurial golang libunwind-dev unzip cmake
 ```
 
+### You might get an error regarding the Go version. Try to install Go latest from the [source](https://linuxhint.com/install-go-ubuntu-2/#2).
+
 ## NGINX Source Code
 
 Navigate to the folder where you want to build `nginx`, in our case, it is `~/nginx`.
